@@ -36,7 +36,7 @@ while True :
 
     # Wait for swePrompt then initalize flash
     objTab.Screen.WaitForString(swPrompt)
-    objTab.Screen.Send("flash_init" + "\n" + "\n") #sending \n twice advances the screen
+    objTab.Screen.Send("flash_init" + "\n" + "\n") # sending \n twice advances the screen
 
     # Wait for swPrompt then send enter command
     objTab.Screen.WaitForString(swPrompt)
